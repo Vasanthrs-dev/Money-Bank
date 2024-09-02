@@ -6,7 +6,7 @@ This Money Bank App is a simple web application built using JavaScript. It allow
 
 ## Live Demo
 
-Check out the [Live Demo](https://vasanthrs-dev.github.io/Money-Bank/) of the app to see it in action!
+Check out the [Live Demo](https://money-bank-rs.netlify.app/) of the app to see it in action!
 
 ## Features
 
