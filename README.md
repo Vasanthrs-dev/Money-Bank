@@ -21,7 +21,7 @@ Check out the [Live Demo](https://money-bank-rs.netlify.app/) of the app to see 
 The following accounts are available in the app:
 
 - **Account 1**
-  - Owner: Vasanth Kumar
+  - Owner: Vasantha Kumar
   - Username: `vk`
   - Password: `1111`
 
