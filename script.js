@@ -22,7 +22,7 @@ const account1 = {
 
 const account2 = {
   owner: 'Tony Stark',
-  movements: [5000, 3400, -150, -790, -3210, -1000, 8500, -30],
+  movements: [50000, 344000, -150, -790, -32100, -1000, 8500, -30],
   interestRate: 1.5,
   pin: 2222,
 
@@ -39,8 +39,46 @@ const account2 = {
   currency: 'USD',
   locale: 'en-US',
 };
+const account3 = {
+  owner: 'Peter Parker',
+  movements: [456, 234, -23, -224, -235, 1200, -20, 30],
+  interestRate: 1.5,
+  pin: 3333,
 
-const accounts = [account1, account2];
+  movementsDates: [
+    '2022-11-01T13:15:33.035Z',
+    '2022-11-30T09:48:16.867Z',
+    '2022-12-25T06:04:23.907Z',
+    '2023-01-25T14:18:46.235Z',
+    '2023-02-05T16:33:06.386Z',
+    '2023-04-10T14:43:26.374Z',
+    '2024-07-25T18:49:59.371Z',
+    '2024-07-26T12:01:20.894Z',
+  ],
+  currency: 'EUR',
+  locale: 'pt-PT',
+};
+const account4 = {
+  owner: 'Steve Rogers',
+  movements: [200, 2354, -56, 5000, -2035, 1200, -200, 300],
+  interestRate: 1.7,
+  pin: 4444,
+
+  movementsDates: [
+    '2022-11-01T13:15:33.035Z',
+    '2022-11-30T09:48:16.867Z',
+    '2022-12-25T06:04:23.907Z',
+    '2023-01-25T14:18:46.235Z',
+    '2023-02-05T16:33:06.386Z',
+    '2023-04-10T14:43:26.374Z',
+    '2024-07-25T18:49:59.371Z',
+    '2024-07-26T12:01:20.894Z',
+  ],
+  currency: 'USD',
+  locale: 'en-US',
+};
+
+const accounts = [account1, account2, account3, account4];
 
 /////////////////////////////////////////////////
 // Elements
